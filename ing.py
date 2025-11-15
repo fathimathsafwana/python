@@ -1,6 +1,6 @@
-s = input("Enter a string: ")
+ss = input("Enter a string: ")
 if s.endswith("ing"):
-s += "ly"
+    s += "ly"
 else:
-s += "ing"
+    s += "ing"
 print(s)
